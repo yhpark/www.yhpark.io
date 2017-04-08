@@ -87,11 +87,12 @@
       <hr class="section_divider" />
 
       <footer>
+        <div class="float-right small">[<a href="https://github.com/yhpark/www.yhpark.io">fork on Github</a>]</div>
+        <div class="float-right small">[<a href="#" onclick="$('link').remove(); $(this).parent().remove();">old school</a>]</div>
+
         {{#each footnote}}
         <p id="f_{{@key}}" class="small">{{#footKey}}{{@key}}{{/footKey}} {{this}}</p>
         {{/each}}
-
-        <p class="small">[<a href="#" onclick="$('link').remove(); $(this).parent().remove();">old school</a>]</p>
       </footer>
     </div>
 

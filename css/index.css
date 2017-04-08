@@ -46,3 +46,7 @@ section *:last-child {
 .section_divider {
   margin: 0;
 }
+
+footer > div {
+  margin-left: 5px;
+}
