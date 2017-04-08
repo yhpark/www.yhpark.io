@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>yhpark.io</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+
+    <div id="wrapper" class="container">
+      <header>
+        <h1 id="name">{{name}}</h1>
+      </header>
+
+      {{#linkFootnote footnote}}
+
+      <section>
+        {{#each description}}
+        <p>{{.}}</p>
+        {{/each}}
+        <p>
+          [<a href="mailto:{{email}}">email</a>]
+          {{#each link}}[<a href="{{this}}">{{@key}}</a>] {{/each}}
+        </p>
+      </section>
+
+      <hr class="section_divider" />
+
+      <section id="publications">
+        <h4>Publications</h4>
+
+        <p>// stay tuned for more in 2017</p>
+
+        {{#each publications}}
+        <p>
+          {{authors}} ({{year}}). {{title}}. <i>{{publication}}</i>. {{#if misc}}{{misc}}.{{/if}}
+          {{#each link}}
+          [<a href="{{this}}">{{@key}}</a>]
+          {{/each}}
+        </p>
+        {{/each}}
+      </section>
+
+      <section id="education">
+        <h4>Education</h4>
+
+        {{#each education}}
+        <p>{{degree}}, {{institution}}, {{location}}, {{period}}.</p>
+        {{/each}}
+      </section>
+
+      <section id="experiences">
+        <h4>Experiences</h4>
+
+        <section>
+          <h5>Research Experience</h5>
+
+          {{#each research_experience}}
+          <p>{{title}}, {{institution}}, {{location}}, {{period}}.</p>
+          {{/each}}
+        </section>
+
+        <section>
+          <h5>Industry Experience</h5>
+
+          {{#each industry_experience}}
+          <p>{{title}}, {{employer}}, {{location}}, {{period}}.</p>
+          {{/each}}
+        </section>
+
+      </section>
+
+      {{/linkFootnote}}
+
+      <hr class="section_divider" />
+
+      <footer>
+        {{#each footnote}}
+        <p id="f_{{@key}}" class="small">{{#footKey}}{{@key}}{{/footKey}} {{this}}</p>
+        {{/each}}
+
+        <p class="small">[<a href="#" onclick="$('link').remove(); $(this).parent().remove();">old school</a>]</p>
+      </footer>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

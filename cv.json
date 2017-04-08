@@ -1,0 +1,96 @@
+{
+  "name": "Yeong Hoon Park",
+  "firstname": "Yeong Hoon",
+  "lastname": "Park",
+
+  "email": "me@yhpark.io",
+
+  "description": ["Hi, I'm a Master's student studying computer science at University of Minnesota, Twin Cities. As a researcher, I study and develop novel techniques for helping programming education and collaborative learning on MOOCs. Most of my academic work are done in collaboration with great people at GroupLens Research and KAIST U&I Lab.",
+                  "Previously, I worked as a software engineer at Kakao and Lotiple, and co-founder of Seoul Bus[1]."],
+
+  "link": {
+    "LinkedIn": "https://www.linkedin.com/in/yhpark",
+    "Instagram": "https://www.instagram.com/yhpark.io",
+    "Twitter": "https://twitter.com/eie",
+    "Facebook": "https://www.facebook.com/1443248259"
+  },
+
+  "education": [{
+    "degree": "M.S. in Computer Science",
+    "institution": "University of Minnesota - Twin Cities",
+    "location": "Minneapolis, MN",
+    "period": "2016-Present"
+  }, {
+    "degree": "B.S. in Computer Science",
+    "institution": "KAIST",
+    "location": "Daejeon, Korea",
+    "period": "2011-2016"
+  }],
+
+  "publications": [{
+    "authors": "Hao Fei Cheng, Bowen Yu, Yeong Hoon Park, Haiyi Zhu",
+    "year": 2017,
+    "title": "ProjectLens: Supporting Project-based Collaborative Learning on MOOCs",
+    "publication": "In Proceedings of the 4th ACM Conference on Learning at Scale (L@S '17 Work-in-Progress)",
+    "misc": "To appear",
+    "link": {
+      "pdf": "https://www-users.cs.umn.edu/~bowen/Publications/lsw134-chengA.pdf"
+    }
+  }, {
+    "authors": "Jungkook Park, Yeong Hoon Park, Suin Kim, Alice Oh",
+    "year": 2017,
+    "title": "Eliph: Effective Visualization of Code History for Peer Assessment in Programming Education",
+    "publication": "In Proceedings of the 20th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '17)",
+    "misc": "Honorable Mention Award (Top 4% of total submissions)",
+    "link": {
+      "pdf": "http://uilab.kaist.ac.kr/research/CSCW17/cscw2017_eliph_park.pdf",
+      "acm dl": "http://dl.acm.org/citation.cfm?id=2998285"
+    }
+  }, {
+    "authors": "Jungkook Park, Yeong Hoon Park, Suin Kim, Alice Oh",
+    "year": 2017,
+    "title": "Eliph: Effective Visualization of Code History for Peer Assessment in Programming Education (Demo)",
+    "publication": "In Companion of the 20th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '17 Companion)",
+    "link": {
+      "acm dl": "http://dl.acm.org/citation.cfm?id=3023266"
+    }
+  }],
+
+  "research_experience": [{
+    "title": "Research Assistant",
+    "institution": "GroupLens Research at University of Minnesota",
+    "location": "Minneapolis, MN",
+    "period": "2016-Present"
+  }, {
+    "title": "Undergraduate Research Assistant",
+    "institution": "U&I Lab at KAIST",
+    "location": "Daejeon, Korea",
+    "period": "2016"
+  }],
+
+  "industry_experience": [{
+    "title": "Software Development Engineer Intern",
+    "employer": "Amazon.com Inc.",
+    "location": "Seattle, WA",
+    "period": "2017 (Expected)"
+  }, {
+    "title": "Executive Director and Co-Founder (part-time)",
+    "employer": "Seoul Bus Mobile",
+    "location": "Seoul, Korea",
+    "period": "2009-2014"
+  }, {
+    "title": "Software Engineer",
+    "employer": "Kakao Corp.",
+    "location": "Seongnam, Korea",
+    "period": "2011-2014"
+  }, {
+    "title": "Software Engineer",
+    "employer": "Lotiple, Inc.",
+    "location": "Seoul, Korea",
+    "period": "2011"
+  }],
+
+  "footnote": {
+    "1": "Acquired by Daum Communications, Inc., and renamed to Kakao Bus (https://map.kakao.com/info/kakao_bus)."
+  }
+}
