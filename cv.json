@@ -32,9 +32,9 @@
     "year": 2017,
     "title": "ProjectLens: Supporting Project-based Collaborative Learning on MOOCs",
     "publication": "In Proceedings of the 4th ACM Conference on Learning at Scale (L@S '17 Work-in-Progress)",
-    "misc": "To appear",
+    "misc": "",
     "link": {
-      "pdf": "https://www-users.cs.umn.edu/~bowen/Publications/lsw134-chengA.pdf"
+      "acm dl": "http://dl.acm.org/citation.cfm?id=3053998"
     }
   }, {
     "authors": "Jungkook Park, Yeong Hoon Park, Suin Kim, Alice Oh",
@@ -43,8 +43,7 @@
     "publication": "In Proceedings of the 20th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '17)",
     "misc": "Honorable Mention Award (Top 4% of total submissions)",
     "link": {
-      "pdf": "http://uilab.kaist.ac.kr/research/CSCW17/cscw2017_eliph_park.pdf",
-      "acm dl": "http://dl.acm.org/citation.cfm?id=2998285"
+      "acm dl": "http://dl.acm.org/authorize?N24485"
     }
   }, {
     "authors": "Jungkook Park, Yeong Hoon Park, Suin Kim, Alice Oh",
@@ -52,7 +51,7 @@
     "title": "Eliph: Effective Visualization of Code History for Peer Assessment in Programming Education (Demo)",
     "publication": "In Companion of the 20th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '17 Companion)",
     "link": {
-      "acm dl": "http://dl.acm.org/citation.cfm?id=3023266"
+      "acm dl": "http://dl.acm.org/authorize?N24474"
     }
   }],
 
