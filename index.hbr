@@ -41,8 +41,6 @@
       <section id="publications">
         <h4>Publications</h4>
 
-        <p>// stay tuned for more in 2017</p>
-
         {{#each publications}}
         <p>
           {{authors}} ({{year}}). {{title}}. <i>{{publication}}</i>. {{#if misc}}{{misc}}.{{/if}}

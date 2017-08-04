@@ -19,7 +19,7 @@
     "degree": "M.S. in Computer Science",
     "institution": "University of Minnesota - Twin Cities",
     "location": "Minneapolis, MN",
-    "period": "2016-Present"
+    "period": "2016-2017 (Expected)"
   }, {
     "degree": "B.S. in Computer Science",
     "institution": "KAIST",
@@ -28,6 +28,14 @@
   }],
 
   "publications": [{
+    "authors": "Jungkook Park*, Yeong Hoon Park*, Alice Oh",
+    "year": 2017,
+    "title": "Non-Linear Editor for Text-Based Screencast",
+    "publication": "In Proceedings of the 30th ACM Symposium on User Interface Software and Technology (UIST '17 Poster)",
+    "misc": "",
+    "link": {
+    }
+  }, {
     "authors": "Hao Fei Cheng, Bowen Yu, Yeong Hoon Park, Haiyi Zhu",
     "year": 2017,
     "title": "ProjectLens: Supporting Project-based Collaborative Learning on MOOCs",
@@ -71,7 +79,7 @@
     "title": "Software Development Engineer Intern",
     "employer": "Amazon.com Inc.",
     "location": "Seattle, WA",
-    "period": "2017 (Expected)"
+    "period": "2017"
   }, {
     "title": "Executive Director and Co-Founder (part-time)",
     "employer": "Seoul Bus Mobile",
