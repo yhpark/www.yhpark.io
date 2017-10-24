@@ -6,7 +6,7 @@
   "email": "me@yhpark.io",
 
   "description": ["Hi, I'm a Master's student studying computer science at University of Minnesota, Twin Cities. As a researcher, I study and develop novel techniques for helping programming education and collaborative learning on MOOCs. Most of my academic work are done in collaboration with great people at GroupLens Research and KAIST U&I Lab.",
-                  "Previously, I worked as a software engineer at Kakao and Lotiple, and co-founder of Seoul Bus[1]."],
+                  "Previously, I worked as a software engineer at Kakao and Lotiple, and co-founded Seoul Bus[1]."],
 
   "link": {
     "LinkedIn": "https://www.linkedin.com/in/yhpark",
@@ -34,6 +34,7 @@
     "publication": "In Adjunct Proceedings of the 30th ACM Symposium on User Interface Software and Technology (UIST '17 Poster)",
     "misc": "",
     "link": {
+      "acm dl": "https://dl.acm.org/citation.cfm?id=3131831"
     }
   }, {
     "authors": "Hao Fei Cheng, Bowen Yu, Yeong Hoon Park, Haiyi Zhu",
@@ -67,7 +68,7 @@
     "title": "Research Assistant",
     "institution": "GroupLens Research at University of Minnesota",
     "location": "Minneapolis, MN",
-    "period": "2016-Present"
+    "period": "2016-2017"
   }, {
     "title": "Undergraduate Research Assistant",
     "institution": "U&I Lab at KAIST",
@@ -81,7 +82,7 @@
     "location": "Seattle, WA",
     "period": "2017"
   }, {
-    "title": "Executive Director and Co-Founder (part-time)",
+    "title": "Co-founder (part-time)",
     "employer": "Seoul Bus Mobile",
     "location": "Seoul, Korea",
     "period": "2009-2014"
