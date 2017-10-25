@@ -5,7 +5,6 @@ var fs = Promise.promisifyAll(require('fs'));
 
 var tmplRead = fs.readFileAsync('index.hbr');
 var cvRead = fs.readFileAsync('cv.json', 'utf8').then(JSON.parse);
-var localRead = fs.readFileAsync('local.json', 'utf8').then(JSON.parse);
 
 function footKey(key) {
   if (String(parseInt(key)) === key)
@@ -13,8 +12,8 @@ function footKey(key) {
   return key;
 }
 
-Promise.all([tmplRead, cvRead, localRead]).then(function(values) {
-  var [tmpl, cv, local] = values;
+Promise.all([tmplRead, cvRead]).then(function(values) {
+  var [tmpl, cv] = values;
 
   Handlebars.registerHelper('footKey', function(options) {
     return footKey(options.fn(this));
@@ -30,7 +29,5 @@ Promise.all([tmplRead, cvRead, localRead]).then(function(values) {
 
   var tmpl = Handlebars.compile(tmpl.toString());
 
-  var dat = Object.assign(cv, local);
-
-  console.log(tmpl(dat));
+  console.log(tmpl(cv));
 })
