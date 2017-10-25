@@ -1,0 +1,52 @@
+body {
+  font-size: 0.95rem;
+  font-family: "Lato",  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",  "Roboto", "Helvetica Neue", sans-serif;
+}
+
+header {
+  padding-bottom: 32px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#name {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+  #name {
+    font-size: 3.5rem;
+  }
+}
+
+#wrapper > section, #wrapper > footer {
+  padding: 8px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+section h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.0rem;
+  font-weight: normal;
+}
+
+section > section {
+  margin-bottom: 1.5rem;
+}
+/*
+section *:last-child {
+  margin-bottom: 0;
+}*/
+
+.section_divider {
+  margin: 0;
+}
+
+footer > div {
+  margin-left: 5px;
+}
