@@ -34,7 +34,8 @@
     "publication": "In Adjunct Publication of the 30th ACM Symposium on User Interface Software and Technology (UIST '17 Poster)",
     "misc": "",
     "link": {
-      "acm dl": "https://dl.acm.org/citation.cfm?id=3131831"
+      "acm dl": "https://dl.acm.org/authorize?N40654",
+      "poster": "pub/uist17_poster.pdf"
     }
   }, {
     "authors": "Hao Fei Cheng, Bowen Yu, Yeong Hoon Park, Haiyi Zhu",
@@ -52,7 +53,8 @@
     "publication": "In Proceedings of the 20th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '17)",
     "misc": "Honorable Mention Award (Top 4% of total submissions)",
     "link": {
-      "acm dl": "http://dl.acm.org/authorize?N24485"
+      "acm dl": "http://dl.acm.org/authorize?N24485",
+      "slides": "pub/cscw17_slides.pdf"
     }
   }, {
     "authors": "Jungkook Park, Yeong Hoon Park, Suin Kim, Alice Oh",
