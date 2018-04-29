@@ -4,9 +4,11 @@
   "lastname": "Park",
 
   "email": "me@yhpark.io",
-
-  "description": ["Hi, I'm a Master's student studying computer science at University of Minnesota, Twin Cities. As a researcher, I study and develop novel techniques for helping programming education and collaborative learning on MOOCs. Most of my academic work are done in collaboration with great people at GroupLens Research and KAIST U&I Lab.",
-                  "Previously, I worked as a software engineer at Kakao and Lotiple, and co-founded Seoul Bus[1]."],
+  
+  "description": [
+    "Hi, I'm Park, a full-stack developer best known as the co-founder of Seoul Bus [1]. I currently live in Seoul, Korea, working full-time at Kakao Corp as a software engineer & researcher.",
+    "Throughout the years, I've been involved in a wide array of projects ranging from mobile/web applications to large-scale backend systems, among which most notable is KakaoTalk for Android. I recently joined ART (Advanced Recommendation Technologies) team at Kakao where we're building recommender systems that provide relevant content recommendations to tens of millions of users on Kakao's various mobile and web services."
+  ],
 
   "link": {
     "LinkedIn": "https://www.linkedin.com/in/yhpark",
@@ -19,7 +21,7 @@
     "degree": "M.S. in Computer Science",
     "institution": "University of Minnesota - Twin Cities",
     "location": "Minneapolis, MN",
-    "period": "2016-2017 (Expected)"
+    "period": "2016-2017"
   }, {
     "degree": "B.S. in Computer Science",
     "institution": "KAIST",
@@ -28,6 +30,13 @@
   }],
 
   "publications": [{
+    "authors": "Jungkook Park*, Yeong Hoon Park*, Jinhan Kim, Jeongmin Cha, Suin Kim, Alice Oh",
+    "year": 2018,
+    "title": "Elicast: Embedding Interactive Exercises in Programming Tutorial Screencasts",
+    "publication": "In Proceedings of the 5th ACM Conference on Learning at Scale (L@S '18)",
+    "misc": "To Appear",
+    "link": {}
+  }, {
     "authors": "Jungkook Park*, Yeong Hoon Park*, Alice Oh",
     "year": 2017,
     "title": "Non-Linear Editor for Text-Based Screencast",
@@ -44,7 +53,7 @@
     "publication": "In Proceedings of the 4th ACM Conference on Learning at Scale (L@S '17 Work-in-Progress)",
     "misc": "",
     "link": {
-      "acm dl": "http://dl.acm.org/authorize?N35345"
+      "acm dl": "https://dl.acm.org/authorize?N35345"
     }
   }, {
     "authors": "Jungkook Park, Yeong Hoon Park, Suin Kim, Alice Oh",
@@ -53,7 +62,7 @@
     "publication": "In Proceedings of the 20th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '17)",
     "misc": "Honorable Mention Award (Top 4% of total submissions)",
     "link": {
-      "acm dl": "http://dl.acm.org/authorize?N24485",
+      "acm dl": "https://dl.acm.org/authorize?N24485",
       "slides": "pub/cscw17_slides.pdf"
     }
   }, {
@@ -62,7 +71,7 @@
     "title": "Eliph: Effective Visualization of Code History for Peer Assessment in Programming Education (Demo)",
     "publication": "In Companion of the 20th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '17 Companion)",
     "link": {
-      "acm dl": "http://dl.acm.org/authorize?N24474"
+      "acm dl": "https://dl.acm.org/authorize?N24474"
     }
   }],
 
@@ -79,7 +88,12 @@
   }],
 
   "industry_experience": [{
-    "title": "Software Development Engineer Intern",
+    "title": "Software Engineer",
+    "employer": "Kakao Corp.",
+    "location": "Seongnam, Korea",
+    "period": "2018-Present"
+  }, {
+    "title": "Software Development Engineering Intern",
     "employer": "Amazon.com Inc.",
     "location": "Seattle, WA",
     "period": "2017"
