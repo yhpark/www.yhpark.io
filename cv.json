@@ -36,7 +36,8 @@
     "publication": "In Proceedings of the 31st ACM Symposium on User Interface Software and Technology (UIST '18)",
     "misc": "",
     "link": {
-      "acm dl": "https://dl.acm.org/citation.cfm?id=3242654",
+      "acm dl": "https://dl.acm.org/authorize?N664522",
+      "talk": "https://www.youtube.com/watch?v=Uk-Ya4o7hZc",
       "slides": "pub/uist2018_park_slides.pdf",
       "github": "https://github.com/elicast-research/non-linear-edit"
     }
